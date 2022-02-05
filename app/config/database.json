@@ -16,7 +16,8 @@
   "production": {
     "username": "lurlnlrtmusceo",
     "password": "732066f1813a7624ef79ccf0ededbf2503bc133f3cb9f0515be8d939d8840130",
-    "database": "ec2-34-205-46-149.compute-1.amazonaws.com",
+    "database": "dbjrbucrqi1jfr",
+    "host": "ec2-34-205-46-149.compute-1.amazonaws.com",
     "port": 5432,
     "dialect": "postgres",
     "dialectOptions": {
