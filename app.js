@@ -19,11 +19,11 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use(cors())
-// app.get('/', (req, res) => {
-//     res.json({
-//         message: "welcome"
-//     })
-// });
+app.get('/', (req, res) => {
+    res.json({
+        message: "welcome"
+    })
+});
 app.use(`${URL}`, projectRouter);
 app.use(`${URL}`, uploadRouter);
 
