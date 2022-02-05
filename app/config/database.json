@@ -19,7 +19,7 @@
     "database": "ec2-34-205-46-149.compute-1.amazonaws.com",
     "port": 5432,
     "dialect": "postgres",
-    "dialectOption": {
+    "dialectOptions": {
       "ssl": {
         "rejectUnauthorized": false
       }
