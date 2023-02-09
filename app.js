@@ -4,7 +4,6 @@ const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 const cors = require('cors');
 
-
 const projectRouter = require('./app/api/project/router');
 const uploadRouter = require('./app/api/uploads/router');
 const URL = '/api/v1/'
